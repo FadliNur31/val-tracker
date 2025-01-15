@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 import { Logo } from "./ui/logo";
+
 export const Navbar = () => {
  const a = () =>{
     console.log("Pantek")
