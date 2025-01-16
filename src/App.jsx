@@ -6,7 +6,7 @@ import { Main } from './components/main';
 function App() {
   const [mmr, setMmr] = useState(null)
   return (
-    <div className='max-w-screen-2xl mx-auto my-0'>
+    <div className='max-w-screen-2xl h-full mx-auto my-0'>
       <Navbar></Navbar>
       <Main></Main>
     </div>

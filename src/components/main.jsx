@@ -3,7 +3,7 @@ import { Hero } from './hero'
 
 export const Main = () => {
   return (
-    <div>
+    <div className='h-full'>
         <Hero></Hero>
     </div>
   )

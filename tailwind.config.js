@@ -8,7 +8,10 @@ export default {
   theme: {
 	container: {
 		center: true,
-	  },
+	},
+	fontFamily: {
+		VALORANT: ["VALORANT"],
+	},
   	extend: {
   		borderRadius: {
   			lg: 'var(--radius)',
