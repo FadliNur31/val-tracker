@@ -1,16 +1,18 @@
 import React from "react";
 import { Button } from "./ui/button";
 import { Logo } from "./ui/logo";
+import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
- const a = () =>{
-    console.log("Pantek")
- }
   return (
     <div className="flex justify-between w-full">
         <Logo/>
         <div className="flex justify-center">
-            <Button variant="destructive" className="font-bold" onClick={a}>Home</Button>  
+          <NavLink to={"/"}>
+            {({ isActive }) =>
+              <Button variant={isActive? "destructiveclick" :  "destructive"} className="font-bold">Home</Button>  
+            }
+          </NavLink>
         </div>
     </div>
   );
