@@ -5,7 +5,6 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Result from './Result.jsx'
 
-
 const router = createBrowserRouter([
   {path:"/", element:<App/>},
   {path:"/result", element:<Result/>},

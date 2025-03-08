@@ -13,6 +13,9 @@ export default {
 		VALORANT: ["VALORANT"],
 	},
   	extend: {
+		fontFamily: {
+			'roboto-condensed': ['"Roboto Condensed"', 'sans-serif'],
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

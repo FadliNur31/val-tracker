@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "./ui/button";
 import { Logo } from "./ui/logo";
 import { NavLink } from "react-router-dom";
